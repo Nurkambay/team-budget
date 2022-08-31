@@ -1,7 +1,9 @@
+package org.education.library;
+
 public class Car extends Vehicle {
     private int gas;
 
-    Car (String nickname, Person owner, int maxPassenger) {
+    public Car (String nickname, Person owner, int maxPassengers) {
         this.nickname = nickname;
         this.owner = owner;
         this.maxPassengers = maxPassengers;

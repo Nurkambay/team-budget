@@ -1,3 +1,5 @@
+package org.education.library;
+
 public abstract class Vehicle {
 
     protected int maxPassengers;
@@ -8,6 +10,7 @@ public abstract class Vehicle {
     public int getMaxPassengers() {
         return maxPassengers;
     }
+
     public void setMaxPassengers(int maxPassengers) {
         this.maxPassengers = maxPassengers;
     }
@@ -15,9 +18,11 @@ public abstract class Vehicle {
     public Person getOwner() {
         return owner;
     }
+
     public void setOwner(Person owner) {
         this.owner = owner;
     }
+
     public boolean drive(Person driver) {
         if (this.driver == null) {
             this.driver = driver;

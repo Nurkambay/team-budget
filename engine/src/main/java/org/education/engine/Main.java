@@ -1,3 +1,10 @@
+package org.education.engine;
+
+import org.education.library.Bike;
+import org.education.library.Car;
+import org.education.library.Person;
+import org.education.library.Vehicle;
+
 import java.util.ArrayList;
 
 public class Main {
